@@ -12,6 +12,7 @@ use rust_embed::RustEmbed;
 #[folder = "template"]
 struct Asset;
 
+/// 创建 React 项目
 fn main() {
     
     // 获取命令行参数
