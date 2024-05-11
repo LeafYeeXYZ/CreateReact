@@ -27,13 +27,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "create-react"
-version = "0.1.0"
-dependencies = [
- "rust-embed",
-]
-
-[[package]]
 name = "crypto-common"
 version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -61,6 +54,13 @@ checksum = "85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a"
 dependencies = [
  "typenum",
  "version_check",
+]
+
+[[package]]
+name = "leaf-create-react"
+version = "0.1.0"
+dependencies = [
+ "rust-embed",
 ]
 
 [[package]]

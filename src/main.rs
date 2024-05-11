@@ -56,6 +56,6 @@ fn main() {
     fs::write(&package_json_path, new_package_json_content).unwrap();
 
     // 打印成功信息
-    println!("项目创建成功\n\n打开项目: code {}", folder_name);  
+    println!("\n项目创建成功, 打开项目: code ./{}\n", folder_name);
     
 }
