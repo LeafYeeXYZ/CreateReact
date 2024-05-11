@@ -18,7 +18,7 @@ fn main() {
     // 获取命令行参数
     let args: Vec<String> = env::args().collect();
     if args.len() < 3 {
-        println!("使用方法: create-react folder_name project_name");
+        println!("使用方法: leaf-create-react folder_name project_name");
         return;
     }
     let folder_name: &String = &args[1];
